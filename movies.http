@@ -1,0 +1,53 @@
+### Tomee: Load Movies
+POST http://localhost:8080/moviefun/rest/load
+Content-Type: application/json
+
+### Boot: Load Movies
+POST http://localhost:8080/load
+Content-Type: application/json
+
+
+### Tomee: Get movies
+GET http://localhost:8080/moviefun/rest/movies
+Content-Type: application/json
+
+### Boot: Get movies
+GET http://localhost:8080/movies
+Content-Type: application/json
+
+
+### Tomee: Add Movie
+POST http://localhost:8080/moviefun/rest/movies
+Content-Type: application/json
+
+{
+  "director": "Fernando Meirelles",
+  "title": "City of God",
+  "year": 2002,
+  "genre": "Drama",
+  "rating": 10
+}
+
+### Boot: Add Movie
+POST http://localhost:8080/movies
+Content-Type: application/json
+
+{
+  "director": "Fernando Meirelles",
+  "title": "City of God",
+  "year": 2002,
+  "genre": "Drama",
+  "rating": 10
+}
+
+
+### Tomee: Count Movies
+GET http://localhost:8080/moviefun/rest/count?field=director&searchTerm=Fernando
+Content-Type: text/plain
+
+### Boot: Count Movies
+GET http://localhost:8080/count?field=director&searchTerm=Fernando
+Content-Type: text/plain
+
+
+

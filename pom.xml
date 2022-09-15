@@ -15,101 +15,100 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.superbiz</groupId>
-  <artifactId>moviefun-rest</artifactId>
+  <groupId>com.example</groupId>
+  <artifactId>jee-rest</artifactId>
   <packaging>war</packaging>
-  <version>8.0.0</version>
-  <name>TomEE :: Web Examples :: Moviefun Rest</name>
+  <version>1.0.0</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <tomee.version>8.0.0</tomee.version>
-    <version.shrinkwrap.resolver>2.0.0</version.shrinkwrap.resolver>
+<!--    <version.shrinkwrap.resolver>2.0.0</version.shrinkwrap.resolver>-->
   </properties>
 
-  <repositories>
-    <repository>
-      <id>apache-m2-snapshot</id>
-      <name>Apache Snapshot Repository</name>
-      <url>https://repository.apache.org/content/groups/snapshots</url>
-    </repository>
-  </repositories>
+<!--  <repositories>-->
+<!--    <repository>-->
+<!--      <id>apache-m2-snapshot</id>-->
+<!--      <name>Apache Snapshot Repository</name>-->
+<!--      <url>https://repository.apache.org/content/groups/snapshots</url>-->
+<!--    </repository>-->
+<!--  </repositories>-->
 
-  <pluginRepositories>
-    <pluginRepository>
-      <id>apache-m2-snapshot</id>
-      <name>Apache Snapshot Repository</name>
-      <url>https://repository.apache.org/content/groups/snapshots</url>
-    </pluginRepository>
-  </pluginRepositories>
+<!--  <pluginRepositories>-->
+<!--    <pluginRepository>-->
+<!--      <id>apache-m2-snapshot</id>-->
+<!--      <name>Apache Snapshot Repository</name>-->
+<!--      <url>https://repository.apache.org/content/groups/snapshots</url>-->
+<!--    </pluginRepository>-->
+<!--  </pluginRepositories>-->
 
   <build>
     <finalName>moviefun</finalName>
     <plugins>
-      <plugin>
-        <groupId>com.googlecode.jslint4java</groupId>
-        <artifactId>jslint4java-maven-plugin</artifactId>
-        <version>2.0.5</version>
-        <dependencies>
-          <dependency>
-            <groupId>org.codehaus.plexus</groupId>
-            <artifactId>plexus-utils</artifactId>
-            <version>3.0.24</version>
-          </dependency>
-        </dependencies>
-        <configuration>
-          <failOnError>true</failOnError>
-          <options>
-            <vars>true</vars>
-            <unparam>true</unparam>
-            <predef>define,require,requirejs,window,Backbone,_,$,Handlebars,APP_CONFIG</predef>
-            <indent>4</indent>
-          </options>
-          <sourceFolders>
-            <sourceFolder>${basedir}/src/main/webapp/app/js</sourceFolder>
-          </sourceFolders>
-        </configuration>
-        <executions>
-          <execution>
-            <phase>prepare-package</phase>
-            <goals>
-              <goal>lint</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-dependency-plugin</artifactId>
-        <version>2.10</version>
-        <executions>
-          <execution>
-            <id>copy-test-libs</id>
-            <phase>process-test-resources</phase>
-            <configuration>
-              <artifactItems>
-                <artifactItem>
-                  <groupId>javax.servlet</groupId>
-                  <artifactId>jstl</artifactId>
-                  <version>1.2</version>
-                </artifactItem>
-                <artifactItem>
-                  <groupId>taglibs</groupId>
-                  <artifactId>standard</artifactId>
-                  <version>1.1.2</version>
-                </artifactItem>
-              </artifactItems>
-              <outputDirectory>
-                ${project.build.directory}/test-libs
-              </outputDirectory>
-              <stripVersion>true</stripVersion>
-            </configuration>
-            <goals>
-              <goal>copy</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
+<!--      <plugin>-->
+<!--        <groupId>com.googlecode.jslint4java</groupId>-->
+<!--        <artifactId>jslint4java-maven-plugin</artifactId>-->
+<!--        <version>2.0.5</version>-->
+<!--        <dependencies>-->
+<!--          <dependency>-->
+<!--            <groupId>org.codehaus.plexus</groupId>-->
+<!--            <artifactId>plexus-utils</artifactId>-->
+<!--            <version>3.0.24</version>-->
+<!--          </dependency>-->
+<!--        </dependencies>-->
+<!--        <configuration>-->
+<!--          <failOnError>true</failOnError>-->
+<!--          <options>-->
+<!--            <vars>true</vars>-->
+<!--            <unparam>true</unparam>-->
+<!--            <predef>define,require,requirejs,window,Backbone,_,$,Handlebars,APP_CONFIG</predef>-->
+<!--            <indent>4</indent>-->
+<!--          </options>-->
+<!--          <sourceFolders>-->
+<!--            <sourceFolder>${basedir}/src/main/webapp/app/js</sourceFolder>-->
+<!--          </sourceFolders>-->
+<!--        </configuration>-->
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <phase>prepare-package</phase>-->
+<!--            <goals>-->
+<!--              <goal>lint</goal>-->
+<!--            </goals>-->
+<!--          </execution>-->
+<!--        </executions>-->
+<!--      </plugin>-->
+<!--      <plugin>-->
+<!--        <groupId>org.apache.maven.plugins</groupId>-->
+<!--        <artifactId>maven-dependency-plugin</artifactId>-->
+<!--        <version>2.10</version>-->
+<!--        <executions>-->
+<!--          <execution>-->
+<!--            <id>copy-test-libs</id>-->
+<!--            <phase>process-test-resources</phase>-->
+<!--            <configuration>-->
+<!--              <artifactItems>-->
+<!--                <artifactItem>-->
+<!--                  <groupId>javax.servlet</groupId>-->
+<!--                  <artifactId>jstl</artifactId>-->
+<!--                  <version>1.2</version>-->
+<!--                </artifactItem>-->
+<!--                <artifactItem>-->
+<!--                  <groupId>taglibs</groupId>-->
+<!--                  <artifactId>standard</artifactId>-->
+<!--                  <version>1.1.2</version>-->
+<!--                </artifactItem>-->
+<!--              </artifactItems>-->
+<!--              <outputDirectory>-->
+<!--                ${project.build.directory}/test-libs-->
+<!--              </outputDirectory>-->
+<!--              <stripVersion>true</stripVersion>-->
+<!--            </configuration>-->
+<!--            <goals>-->
+<!--              <goal>copy</goal>-->
+<!--            </goals>-->
+<!--          </execution>-->
+<!--        </executions>-->
+<!--      </plugin>-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -149,21 +148,21 @@
     <dependencies>
       <!-- Override dependency resolver with test version. This must go *BEFORE*
         the Arquillian BOM. -->
-      <dependency>
-        <groupId>org.jboss.shrinkwrap.resolver</groupId>
-        <artifactId>shrinkwrap-resolver-bom</artifactId>
-        <version>${version.shrinkwrap.resolver}</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
+<!--      <dependency>-->
+<!--        <groupId>org.jboss.shrinkwrap.resolver</groupId>-->
+<!--        <artifactId>shrinkwrap-resolver-bom</artifactId>-->
+<!--        <version>${version.shrinkwrap.resolver}</version>-->
+<!--        <scope>import</scope>-->
+<!--        <type>pom</type>-->
+<!--      </dependency>-->
       <!-- Now pull in our server-based unit testing framework -->
-      <dependency>
-        <groupId>org.jboss.arquillian</groupId>
-        <artifactId>arquillian-bom</artifactId>
-        <version>1.0.3.Final</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
+<!--      <dependency>-->
+<!--        <groupId>org.jboss.arquillian</groupId>-->
+<!--        <artifactId>arquillian-bom</artifactId>-->
+<!--        <version>1.0.3.Final</version>-->
+<!--        <scope>import</scope>-->
+<!--        <type>pom</type>-->
+<!--      </dependency>-->
     </dependencies>
   </dependencyManagement>
 
@@ -209,17 +208,17 @@
       <artifactId>commons-lang</artifactId>
       <version>2.4</version>
     </dependency>
-    <dependency>
-      <groupId>org.jboss.arquillian.junit</groupId>
-      <artifactId>arquillian-junit-container</artifactId>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.jboss.shrinkwrap.resolver</groupId>
-      <artifactId>shrinkwrap-resolver-depchain</artifactId>
-      <type>pom</type>
-      <scope>test</scope>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>org.jboss.arquillian.junit</groupId>-->
+<!--      <artifactId>arquillian-junit-container</artifactId>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+<!--    <dependency>-->
+<!--      <groupId>org.jboss.shrinkwrap.resolver</groupId>-->
+<!--      <artifactId>shrinkwrap-resolver-depchain</artifactId>-->
+<!--      <type>pom</type>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
     <dependency>
       <groupId>org.apache.tomee</groupId>
       <artifactId>ziplock</artifactId>
@@ -266,46 +265,51 @@
       <artifactId>requirejs-text</artifactId>
       <version>2.0.10</version>
     </dependency>
+    <dependency>
+      <groupId>org.hsqldb</groupId>
+      <artifactId>hsqldb</artifactId>
+      <version>2.3.3</version>
+    </dependency>
   </dependencies>
-  <profiles>
-    <profile>
-      <id>arquillian-tomee-embedded</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <dependencies>
-        <dependency>
-          <groupId>org.apache.tomee</groupId>
-          <artifactId>arquillian-tomee-embedded</artifactId>
-          <version>${tomee.version}</version>
-          <scope>test</scope>
-        </dependency>
-      </dependencies>
-    </profile>
-    <profile>
-      <id>arquillian-tomee-remote</id>
-      <dependencies>
-        <dependency>
-          <groupId>org.apache.tomee</groupId>
-          <artifactId>arquillian-tomee-remote</artifactId>
-          <version>${tomee.version}</version>
-          <scope>test</scope>
-        </dependency>
-      </dependencies>
-    </profile>
-  </profiles>
+<!--  <profiles>-->
+<!--    <profile>-->
+<!--      <id>arquillian-tomee-embedded</id>-->
+<!--      <activation>-->
+<!--        <activeByDefault>true</activeByDefault>-->
+<!--      </activation>-->
+<!--      <dependencies>-->
+<!--        <dependency>-->
+<!--          <groupId>org.apache.tomee</groupId>-->
+<!--          <artifactId>arquillian-tomee-embedded</artifactId>-->
+<!--          <version>${tomee.version}</version>-->
+<!--          <scope>test</scope>-->
+<!--        </dependency>-->
+<!--      </dependencies>-->
+<!--    </profile>-->
+<!--    <profile>-->
+<!--      <id>arquillian-tomee-remote</id>-->
+<!--      <dependencies>-->
+<!--        <dependency>-->
+<!--          <groupId>org.apache.tomee</groupId>-->
+<!--          <artifactId>arquillian-tomee-remote</artifactId>-->
+<!--          <version>${tomee.version}</version>-->
+<!--          <scope>test</scope>-->
+<!--        </dependency>-->
+<!--      </dependencies>-->
+<!--    </profile>-->
+<!--  </profiles>-->
 
   <!-- This section allows you to configure where to publish libraries for
   sharing. It is not required and may be deleted. For more information see:
   http://maven.apache.org/plugins/maven-deploy-plugin/ -->
-  <distributionManagement>
-    <repository>
-      <id>localhost</id>
-      <url>file://${basedir}/target/repo/</url>
-    </repository>
-    <snapshotRepository>
-      <id>localhost</id>
-      <url>file://${basedir}/target/snapshot-repo/</url>
-    </snapshotRepository>
-  </distributionManagement>
+<!--  <distributionManagement>-->
+<!--    <repository>-->
+<!--      <id>localhost</id>-->
+<!--      <url>file://${basedir}/target/repo/</url>-->
+<!--    </repository>-->
+<!--    <snapshotRepository>-->
+<!--      <id>localhost</id>-->
+<!--      <url>file://${basedir}/target/snapshot-repo/</url>-->
+<!--    </snapshotRepository>-->
+<!--  </distributionManagement>-->
 </project>

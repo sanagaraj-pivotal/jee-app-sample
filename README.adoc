@@ -48,8 +48,8 @@ in the database.
 ....
 package org.superbiz.moviefun.rest;
 
-import org.superbiz.moviefun.Movie;
-import org.superbiz.moviefun.MoviesBean;
+import Movie;
+import MoviesBean;
 
 import javax.ejb.EJB;
 import javax.ws.rs.POST;
@@ -84,8 +84,8 @@ method for each HTTP method (GET, POST, PUT, DELETE).
 ....
 package org.superbiz.moviefun.rest;
 
-import org.superbiz.moviefun.Movie;
-import org.superbiz.moviefun.MoviesBean;
+import Movie;
+import MoviesBean;
 
 import javax.ejb.EJB;
 import javax.ws.rs.Consumes;
@@ -342,7 +342,7 @@ INFO: PersistenceUnit(name=movie-unit, provider=org.apache.openjpa.persistence.P
 Dec 18, 2018 1:31:44 PM org.apache.openejb.assembler.classic.JndiBuilder bind
 INFO: Jndi(name=MoviesBeanLocalBean) --> Ejb(deployment-id=MoviesBean)
 Dec 18, 2018 1:31:44 PM org.apache.openejb.assembler.classic.JndiBuilder bind
-INFO: Jndi(name=global/test/MoviesBean!org.superbiz.moviefun.MoviesBean) --> Ejb(deployment-id=MoviesBean)
+INFO: Jndi(name=global/test/MoviesBean!MoviesBean) --> Ejb(deployment-id=MoviesBean)
 Dec 18, 2018 1:31:44 PM org.apache.openejb.assembler.classic.JndiBuilder bind
 INFO: Jndi(name=global/test/MoviesBean) --> Ejb(deployment-id=MoviesBean)
 Dec 18, 2018 1:31:44 PM org.apache.openejb.util.LogStreamAsync run
@@ -408,7 +408,7 @@ INFO: Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL 
 Dec 18, 2018 1:31:47 PM null
 INFO: Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2. 
 Dec 18, 2018 1:31:53 PM null
-INFO: Creating subclass and redefining methods for "[class org.superbiz.moviefun.Movie]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
+INFO: Creating subclass and redefining methods for "[class Movie]". This means that your application will be less efficient than it would if you ran the OpenJPA enhancer.
 Dec 18, 2018 1:31:54 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
 INFO: Undeploying app: /Users/josediaz/Projects/tomitribe/tomee/examples/moviefun-rest/target/arquillian-test-working-dir/0/test
 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.77 sec - in org.superbiz.moviefun.MoviesEJBTest
