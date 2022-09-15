@@ -1,0 +1,552 @@
+15-Sep-2022 23:07:29.567 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat (TomEE)/9.0.22 (8.0.0)
+15-Sep-2022 23:07:29.567 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Jul 4 2019 14:20:06 UTC
+15-Sep-2022 23:07:29.567 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version number: 9.0.22.0
+15-Sep-2022 23:07:29.567 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Mac OS X
+15-Sep-2022 23:07:29.567 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            12.4
+15-Sep-2022 23:07:29.568 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          aarch64
+15-Sep-2022 23:07:29.568 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+15-Sep-2022 23:07:29.568 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_322-b06
+15-Sep-2022 23:07:29.568 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Azul Systems, Inc.
+15-Sep-2022 23:07:29.568 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:07:29.568 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:07:29.573 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+15-Sep-2022 23:07:29.573 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+15-Sep-2022 23:07:29.573 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+15-Sep-2022 23:07:29.573 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+15-Sep-2022 23:07:29.573 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Xmx512m
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -XX:PermSize=256m
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/conf/logging.properties
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib/openejb-javaagent.jar
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/temp
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+15-Sep-2022 23:07:29.574 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fkrueger/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+15-Sep-2022 23:07:29.844 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+15-Sep-2022 23:07:29.864 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Sep-2022 23:07:29.963 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+15-Sep-2022 23:07:29.967 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+15-Sep-2022 23:07:30.027 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+15-Sep-2022 23:07:30.027 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+15-Sep-2022 23:07:30.027 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Thu Sep 15 23:07:30 CEST 2022
+15-Sep-2022 23:07:30.027 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+15-Sep-2022 23:07:30.027 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.0
+15-Sep-2022 23:07:30.027 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20190913
+15-Sep-2022 23:07:30.027 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 12:20
+15-Sep-2022 23:07:30.027 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+15-Sep-2022 23:07:30.027 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:07:30.027 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:07:30.028 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@619713e5
+15-Sep-2022 23:07:30.029 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+15-Sep-2022 23:07:30.043 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/conf/tomee.xml'
+15-Sep-2022 23:07:30.072 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+15-Sep-2022 23:07:30.073 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+15-Sep-2022 23:07:30.073 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=HSQLDB Database, type=Resource, provider-id=Default JDBC Database)
+15-Sep-2022 23:07:30.075 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+15-Sep-2022 23:07:30.075 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+15-Sep-2022 23:07:30.083 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+15-Sep-2022 23:07:30.112 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+15-Sep-2022 23:07:30.123 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=HSQLDB Database)
+15-Sep-2022 23:07:30.307 INFO [main] org.hsqldb.persist.Logger.logInfoEvent Checkpoint start
+15-Sep-2022 23:07:30.307 INFO [main] org.hsqldb.persist.Logger.logInfoEvent checkpointClose start
+15-Sep-2022 23:07:30.321 INFO [main] org.hsqldb.persist.Logger.logInfoEvent checkpointClose end
+15-Sep-2022 23:07:30.321 INFO [main] org.hsqldb.persist.Logger.logInfoEvent Checkpoint end - txts: 1
+15-Sep-2022 23:07:30.368 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+15-Sep-2022 23:07:30.450 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+15-Sep-2022 23:07:30.474 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+15-Sep-2022 23:07:30.474 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+15-Sep-2022 23:07:30.474 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+15-Sep-2022 23:07:30.474 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+15-Sep-2022 23:07:30.474 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [985] milliseconds
+15-Sep-2022 23:07:30.490 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+15-Sep-2022 23:07:30.491 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+15-Sep-2022 23:07:30.496 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+15-Sep-2022 23:07:30.496 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat (TomEE)/9.0.22 (8.0.0)]
+15-Sep-2022 23:07:30.508 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun.war]
+15-Sep-2022 23:07:30.512 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /moviefun
+15-Sep-2022 23:07:30.516 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun.war
+15-Sep-2022 23:07:30.541 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun
+15-Sep-2022 23:07:30.541 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+15-Sep-2022 23:07:30.634 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun
+15-Sep-2022 23:07:30.780 INFO [main] org.apache.openejb.config.InitEjbDeployments.deploy Auto-deploying ejb MoviesBean: EjbDeployment(deployment-id=MoviesBean)
+15-Sep-2022 23:07:30.785 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+15-Sep-2022 23:07:30.785 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean MoviesBean: Container(type=STATELESS, id=Default Stateless Container)
+15-Sep-2022 23:07:30.785 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Stateless Container)
+15-Sep-2022 23:07:30.794 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+15-Sep-2022 23:07:30.794 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean moviefun.Comp766696861: Container(type=MANAGED, id=Default Managed Container)
+15-Sep-2022 23:07:30.794 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+15-Sep-2022 23:07:30.797 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/temp for stateful session passivation
+15-Sep-2022 23:07:30.801 INFO [main] org.apache.openejb.config.AutoConfig.deploy Configuring PersistenceUnit(name=movie-unit)
+15-Sep-2022 23:07:30.803 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'HSQLDB DatabaseNonJta' of type 'DataSource for 'movie-unit'.
+15-Sep-2022 23:07:30.803 INFO [main] org.apache.openejb.config.AutoConfig.deploy Configuring Service(id=HSQLDB DatabaseNonJta, type=Resource, provider-id=HSQLDB Database)
+15-Sep-2022 23:07:30.803 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=HSQLDB DatabaseNonJta)
+15-Sep-2022 23:07:30.808 INFO [main] org.apache.openejb.config.AutoConfig.setJtaDataSource Adjusting PersistenceUnit movie-unit <jta-data-source> to Resource ID 'HSQLDB Database' from 'movieDatabase'
+15-Sep-2022 23:07:30.808 INFO [main] org.apache.openejb.config.AutoConfig.setNonJtaDataSource Adjusting PersistenceUnit movie-unit <non-jta-data-source> to Resource ID 'HSQLDB DatabaseNonJta' from 'movieDatabaseUnmanaged'
+15-Sep-2022 23:07:30.818 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun" loaded.
+15-Sep-2022 23:07:30.820 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun
+15-Sep-2022 23:07:31.002 INFO [main] null.openjpa.Runtime OpenJPA dynamically loaded a validation provider.
+15-Sep-2022 23:07:31.009 INFO [main] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=movie-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 177ms
+15-Sep-2022 23:07:31.119 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=MoviesBeanLocalBean) --> Ejb(deployment-id=MoviesBean)
+15-Sep-2022 23:07:31.119 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/moviefun/MoviesBean!org.superbiz.moviefun.MoviesBean) --> Ejb(deployment-id=MoviesBean)
+15-Sep-2022 23:07:31.120 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/moviefun/MoviesBean) --> Ejb(deployment-id=MoviesBean)
+15-Sep-2022 23:07:31.125 INFO [main] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@619713e5
+15-Sep-2022 23:07:31.161 INFO [main] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+15-Sep-2022 23:07:31.164 INFO [main] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+15-Sep-2022 23:07:31.165 INFO [main] org.apache.openejb.cdi.CdiScanner.handleBda Using annotated mode for file:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun/WEB-INF/classes/ looking all classes to find CDI beans, maybe think to add a beans.xml if not there or add the jar to exclusions.list
+15-Sep-2022 23:07:31.335 INFO [main] org.apache.webbeans.config.BeansDeployer.validateInjectionPoints All injection points were validated successfully.
+15-Sep-2022 23:07:31.342 INFO [main] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container has started, it took 180 ms.
+15-Sep-2022 23:07:31.344 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=MoviesBean, ejb-name=MoviesBean, container=Default Stateless Container)
+15-Sep-2022 23:07:31.349 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=MoviesBean, ejb-name=MoviesBean, container=Default Stateless Container)
+15-Sep-2022 23:07:31.352 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun)
+15-Sep-2022 23:07:31.415 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+15-Sep-2022 23:07:31.429 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+15-Sep-2022 23:07:31.457 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Sep-2022 23:07:31.460 INFO [main] org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer.addListener Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+15-Sep-2022 23:07:31.488 INFO [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getStandardFacesConfig Reading standard config META-INF/standard-faces-config.xml
+15-Sep-2022 23:07:31.581 INFO [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib/openwebbeans-el22-2.0.9.jar!/META-INF/faces-config.xml
+15-Sep-2022 23:07:31.582 INFO [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib/openwebbeans-jsf-2.0.9.jar!/META-INF/faces-config.xml
+15-Sep-2022 23:07:31.658 INFO [main] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-api' was found in version '2.3.4' from path 'file:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib/myfaces-api-2.3.4.jar'
+15-Sep-2022 23:07:31.658 INFO [main] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-impl' was found in version '2.3.4' from path 'file:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib/myfaces-impl-2.3.4.jar'
+15-Sep-2022 23:07:31.664 INFO [main] org.apache.myfaces.util.ExternalSpecifications.isCDIAvailable MyFaces CDI support enabled
+15-Sep-2022 23:07:31.665 INFO [main] org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory.getInjectionProvider Using InjectionProvider org.apache.myfaces.spi.impl.CDIAnnotationDelegateInjectionProvider
+15-Sep-2022 23:07:31.690 INFO [main] org.apache.myfaces.util.ExternalSpecifications.isBeanValidationAvailable MyFaces Bean Validation support enabled
+15-Sep-2022 23:07:31.712 INFO [main] org.apache.myfaces.application.ApplicationImpl.getProjectStage Couldn't discover the current project stage, using Production
+15-Sep-2022 23:07:31.713 INFO [main] org.apache.myfaces.config.FacesConfigurator.handleSerialFactory Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+15-Sep-2022 23:07:31.716 INFO [main] org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory.getLifecycleProvider Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+15-Sep-2022 23:07:31.731 INFO [main] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces ServletContext initialized.
+15-Sep-2022 23:07:31.734 INFO [main] org.apache.myfaces.view.facelets.ViewPoolProcessor.initialize org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+15-Sep-2022 23:07:31.740 INFO [main] org.apache.myfaces.webapp.StartupServletContextListener.contextInitialized MyFaces Core has started, it took [278] ms.
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using readers:
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@71166348
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@34009349
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@3f68a7f8
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@4faf1f4
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@4f811029
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@7f2b584b
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@9690008
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@6d874695
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@20bb85b4
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@79add732
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@3be3e76c
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using writers:
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.johnzon.jaxrs.WadlDocumentMessageBodyWriter@6c07ad6b
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.nio.NioMessageBodyWriter@10ed037a
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@20bb85b4
+15-Sep-2022 23:07:31.832 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@4f811029
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@71166348
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@34009349
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@3f68a7f8
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@4faf1f4
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@7f2b584b
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@9690008
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@6d874695
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@79add732
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@3be3e76c
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using exception mappers:
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper@55d8c2c4
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.EJBExceptionMapper@62ea8931
+15-Sep-2022 23:07:31.833 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.validation.ValidationExceptionMapper@798cf6d2
+15-Sep-2022 23:07:31.834 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints REST Application: http://localhost:8080/moviefun/rest              -> org.superbiz.moviefun.rest.ApplicationConfig@251c90f
+15-Sep-2022 23:07:31.835 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/moviefun/rest/load         -> Pojo org.superbiz.moviefun.rest.LoadRest  
+15-Sep-2022 23:07:31.835 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints              POST http://localhost:8080/moviefun/rest/load         ->      void load()
+15-Sep-2022 23:07:31.835 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/moviefun/rest/movies       -> Pojo org.superbiz.moviefun.rest.MoviesRest
+15-Sep-2022 23:07:31.835 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints            DELETE http://localhost:8080/moviefun/rest/movies/{id}  ->      void deleteMovie(long)                                 
+15-Sep-2022 23:07:31.835 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/moviefun/rest/movies       ->      List<Movie> getMovies(Integer, Integer, String, String)
+15-Sep-2022 23:07:31.835 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/moviefun/rest/movies/count ->      int count(String, String)                              
+15-Sep-2022 23:07:31.835 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/moviefun/rest/movies/{id}  ->      Movie find(Long)                                       
+15-Sep-2022 23:07:31.835 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints              POST http://localhost:8080/moviefun/rest/movies       ->      Movie addMovie(Movie)                                  
+15-Sep-2022 23:07:31.835 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               PUT http://localhost:8080/moviefun/rest/movies/{id}  ->      Movie editMovie(Movie)                                 
+15-Sep-2022 23:07:31.845 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun.war] has finished in [1,337] ms
+15-Sep-2022 23:07:31.851 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+15-Sep-2022 23:07:31.851 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+15-Sep-2022 23:07:31.851 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+15-Sep-2022 23:07:31.851 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+15-Sep-2022 23:07:31.854 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+15-Sep-2022 23:07:31.857 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["ajp-nio-8009"]
+15-Sep-2022 23:07:31.858 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [1,383] milliseconds
+15-Sep-2022 23:07:53.547 WARNING [http-nio-8080-exec-2] org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper.toResponse javax.ws.rs.ClientErrorException: HTTP 405 Method Not Allowed
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:167)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:513)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:258)
+	at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+15-Sep-2022 23:08:16.686 INFO [http-nio-8080-exec-3] null.openjpa.Runtime Starting OpenJPA 3.1.0
+15-Sep-2022 23:08:16.726 INFO [http-nio-8080-exec-3] null.openjpa.jdbc.JDBC Using dictionary class "org.apache.openjpa.jdbc.sql.HSQLDictionary" (HSQL Database Engine 2.3.2 ,HSQL Database Engine Driver 2.3.2).
+15-Sep-2022 23:08:16.736 INFO [http-nio-8080-exec-3] null.openjpa.jdbc.JDBC Connected to HSQL Database Engine version 2.2 using JDBC driver HSQL Database Engine Driver version 2.3.2.
+15-Sep-2022 23:08:21.126 WARNING [http-nio-8080-exec-4] org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper.toResponse javax.ws.rs.ClientErrorException: HTTP 405 Method Not Allowed
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:167)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:513)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:258)
+	at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+15-Sep-2022 23:12:25.600 WARNING [http-nio-8080-exec-6] org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper.toResponse javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:167)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:513)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:258)
+	at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+15-Sep-2022 23:15:29.269 WARNING [http-nio-8080-exec-8] org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper.toResponse javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:167)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:513)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:258)
+	at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+15-Sep-2022 23:17:31.626 WARNING [http-nio-8080-exec-2] org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper.toResponse javax.ws.rs.ClientErrorException: HTTP 415 Unsupported Media Type
+	at org.apache.cxf.jaxrs.utils.SpecExceptions.toHttpException(SpecExceptions.java:117)
+	at org.apache.cxf.jaxrs.utils.ExceptionUtils.toHttpException(ExceptionUtils.java:167)
+	at org.apache.cxf.jaxrs.utils.JAXRSUtils.findTargetMethod(JAXRSUtils.java:513)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.processRequest(JAXRSInInterceptor.java:181)
+	at org.apache.cxf.jaxrs.interceptor.JAXRSInInterceptor.handleMessage(JAXRSInInterceptor.java:78)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:267)
+	at org.apache.openejb.server.cxf.rs.CxfRsHttpListener.doInvoke(CxfRsHttpListener.java:258)
+	at org.apache.tomee.webservices.CXFJAXRSFilter.doFilter(CXFJAXRSFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.openejb.server.httpd.EEFilter.doFilter(EEFilter.java:65)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.tomee.catalina.OpenEJBValve.invoke(OpenEJBValve.java:45)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.tomee.catalina.OpenEJBSecurityListener$RequestCapturer.invoke(OpenEJBSecurityListener.java:97)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:678)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+15-Sep-2022 23:18:54.757 INFO [Thread-31] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+15-Sep-2022 23:18:54.763 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+15-Sep-2022 23:18:54.771 INFO [Thread-31] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["ajp-nio-8009"]
+15-Sep-2022 23:18:54.780 INFO [Thread-31] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+15-Sep-2022 23:18:54.796 INFO [Thread-31] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun
+15-Sep-2022 23:18:54.970 INFO [Thread-31] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+15-Sep-2022 23:18:54.971 INFO [Thread-31] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["ajp-nio-8009"]
+15-Sep-2022 23:18:54.971 INFO [Thread-31] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+15-Sep-2022 23:18:54.976 INFO [Thread-31] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: HSQLDB Database
+15-Sep-2022 23:18:54.977 INFO [Thread-31] org.apache.openejb.assembler.classic.Assembler.doResourceDestruction Closing DataSource: HSQLDB DatabaseNonJta
+15-Sep-2022 23:18:54.979 INFO [Thread-31] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+15-Sep-2022 23:18:54.979 INFO [Thread-31] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["ajp-nio-8009"]
+15-Sep-2022 23:19:14.688 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version name:   Apache Tomcat (TomEE)/9.0.22 (8.0.0)
+15-Sep-2022 23:19:14.689 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Jul 4 2019 14:20:06 UTC
+15-Sep-2022 23:19:14.689 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version number: 9.0.22.0
+15-Sep-2022 23:19:14.689 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Mac OS X
+15-Sep-2022 23:19:14.689 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            12.4
+15-Sep-2022 23:19:14.689 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          aarch64
+15-Sep-2022 23:19:14.689 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+15-Sep-2022 23:19:14.689 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_322-b06
+15-Sep-2022 23:19:14.689 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Azul Systems, Inc.
+15-Sep-2022 23:19:14.689 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:19:14.689 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:19:14.713 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+15-Sep-2022 23:19:14.713 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+15-Sep-2022 23:19:14.713 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+15-Sep-2022 23:19:14.713 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Xmx512m
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -XX:PermSize=256m
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.noshutdownhook=true
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/conf/logging.properties
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib/openejb-javaagent.jar
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/temp
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+15-Sep-2022 23:19:14.714 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/fkrueger/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+15-Sep-2022 23:19:14.923 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+15-Sep-2022 23:19:14.940 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+15-Sep-2022 23:19:15.020 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+15-Sep-2022 23:19:15.024 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+15-Sep-2022 23:19:15.069 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+15-Sep-2022 23:19:15.069 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+15-Sep-2022 23:19:15.069 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Thu Sep 15 23:19:15 CEST 2022
+15-Sep-2022 23:19:15.069 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+15-Sep-2022 23:19:15.069 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 8.0.0
+15-Sep-2022 23:19:15.069 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20190913
+15-Sep-2022 23:19:15.069 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 12:20
+15-Sep-2022 23:19:15.069 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+15-Sep-2022 23:19:15.069 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:19:15.069 INFO [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee
+15-Sep-2022 23:19:15.070 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@619713e5
+15-Sep-2022 23:19:15.071 INFO [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+15-Sep-2022 23:19:15.085 INFO [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/conf/tomee.xml'
+15-Sep-2022 23:19:15.102 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+15-Sep-2022 23:19:15.102 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+15-Sep-2022 23:19:15.103 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=HSQLDB Database, type=Resource, provider-id=Default JDBC Database)
+15-Sep-2022 23:19:15.104 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+15-Sep-2022 23:19:15.104 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+15-Sep-2022 23:19:15.110 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+15-Sep-2022 23:19:15.131 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+15-Sep-2022 23:19:15.141 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=HSQLDB Database)
+15-Sep-2022 23:19:15.368 INFO [main] org.hsqldb.persist.Logger.logInfoEvent checkpointClose start
+15-Sep-2022 23:19:15.418 INFO [main] org.hsqldb.persist.Logger.logInfoEvent checkpointClose end
+15-Sep-2022 23:19:15.459 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+15-Sep-2022 23:19:15.536 INFO [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+15-Sep-2022 23:19:15.560 INFO [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+15-Sep-2022 23:19:15.561 INFO [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+15-Sep-2022 23:19:15.561 INFO [main] org.apache.openejb.server.SimpleServiceManager.start -------
+15-Sep-2022 23:19:15.561 INFO [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+15-Sep-2022 23:19:15.561 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.noshutdownhook=true'
+15-Sep-2022 23:19:15.561 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server initialization in [950] milliseconds
+15-Sep-2022 23:19:15.579 INFO [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+15-Sep-2022 23:19:15.579 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+15-Sep-2022 23:19:15.584 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+15-Sep-2022 23:19:15.584 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet engine: [Apache Tomcat (TomEE)/9.0.22 (8.0.0)]
+15-Sep-2022 23:19:15.600 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun.war]
+15-Sep-2022 23:19:15.603 INFO [main] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /moviefun
+15-Sep-2022 23:19:15.604 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracting jar: /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun.war
+15-Sep-2022 23:19:15.655 INFO [main] org.apache.openejb.util.JarExtractor.extract Extracted path: /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun
+15-Sep-2022 23:19:15.656 INFO [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+15-Sep-2022 23:19:15.766 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun
+15-Sep-2022 23:19:15.903 INFO [main] org.apache.openejb.config.InitEjbDeployments.deploy Auto-deploying ejb MoviesBean: EjbDeployment(deployment-id=MoviesBean)
+15-Sep-2022 23:19:15.905 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Stateless Container, type=Container, provider-id=Default Stateless Container)
+15-Sep-2022 23:19:15.905 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean MoviesBean: Container(type=STATELESS, id=Default Stateless Container)
+15-Sep-2022 23:19:15.905 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Stateless Container)
+15-Sep-2022 23:19:15.910 INFO [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+15-Sep-2022 23:19:15.910 INFO [main] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean moviefun.Comp268599241: Container(type=MANAGED, id=Default Managed Container)
+15-Sep-2022 23:19:15.910 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+15-Sep-2022 23:19:15.913 INFO [main] org.apache.openejb.core.managed.SimplePassivater.init Using directory /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/temp for stateful session passivation
+15-Sep-2022 23:19:15.917 INFO [main] org.apache.openejb.config.AutoConfig.deploy Configuring PersistenceUnit(name=movie-unit)
+15-Sep-2022 23:19:15.918 INFO [main] org.apache.openejb.config.AutoConfig.logAutoCreateResource Auto-creating a Resource with id 'HSQLDB DatabaseNonJta' of type 'DataSource for 'movie-unit'.
+15-Sep-2022 23:19:15.918 INFO [main] org.apache.openejb.config.AutoConfig.deploy Configuring Service(id=HSQLDB DatabaseNonJta, type=Resource, provider-id=HSQLDB Database)
+15-Sep-2022 23:19:15.918 INFO [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=HSQLDB DatabaseNonJta)
+15-Sep-2022 23:19:15.928 INFO [main] org.apache.openejb.config.AutoConfig.setJtaDataSource Adjusting PersistenceUnit movie-unit <jta-data-source> to Resource ID 'HSQLDB Database' from 'movieDatabase'
+15-Sep-2022 23:19:15.928 INFO [main] org.apache.openejb.config.AutoConfig.setNonJtaDataSource Adjusting PersistenceUnit movie-unit <non-jta-data-source> to Resource ID 'HSQLDB DatabaseNonJta' from 'movieDatabaseUnmanaged'
+15-Sep-2022 23:19:15.941 INFO [main] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun" loaded.
+15-Sep-2022 23:19:15.943 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun
+15-Sep-2022 23:19:16.150 INFO [main] null.openjpa.Runtime OpenJPA dynamically loaded a validation provider.
+15-Sep-2022 23:19:16.157 INFO [main] org.apache.openejb.assembler.classic.ReloadableEntityManagerFactory.createDelegate PersistenceUnit(name=movie-unit, provider=org.apache.openjpa.persistence.PersistenceProviderImpl) - provider time 206ms
+15-Sep-2022 23:19:16.252 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=MoviesBeanLocalBean) --> Ejb(deployment-id=MoviesBean)
+15-Sep-2022 23:19:16.253 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/moviefun/MoviesBean!org.superbiz.moviefun.MoviesBean) --> Ejb(deployment-id=MoviesBean)
+15-Sep-2022 23:19:16.253 INFO [main] org.apache.openejb.assembler.classic.JndiBuilder.bind Jndi(name=global/moviefun/MoviesBean) --> Ejb(deployment-id=MoviesBean)
+15-Sep-2022 23:19:16.259 INFO [main] org.apache.openejb.cdi.CdiBuilder.initSingleton Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@619713e5
+15-Sep-2022 23:19:16.299 INFO [main] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container is starting...
+15-Sep-2022 23:19:16.301 INFO [main] org.apache.webbeans.plugins.PluginLoader.startUp Adding OpenWebBeansPlugin : [CdiPlugin]
+15-Sep-2022 23:19:16.303 INFO [main] org.apache.openejb.cdi.CdiScanner.handleBda Using annotated mode for file:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun/WEB-INF/classes/ looking all classes to find CDI beans, maybe think to add a beans.xml if not there or add the jar to exclusions.list
+15-Sep-2022 23:19:16.479 INFO [main] org.apache.webbeans.config.BeansDeployer.validateInjectionPoints All injection points were validated successfully.
+15-Sep-2022 23:19:16.486 INFO [main] org.apache.openejb.cdi.OpenEJBLifecycle.startApplication OpenWebBeans Container has started, it took 187 ms.
+15-Sep-2022 23:19:16.488 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Created Ejb(deployment-id=MoviesBean, ejb-name=MoviesBean, container=Default Stateless Container)
+15-Sep-2022 23:19:16.494 INFO [main] org.apache.openejb.assembler.classic.Assembler.startEjbs Started Ejb(deployment-id=MoviesBean, ejb-name=MoviesBean, container=Default Stateless Container)
+15-Sep-2022 23:19:16.498 INFO [main] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun)
+15-Sep-2022 23:19:16.560 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Using org.apache.myfaces.ee.MyFacesContainerInitializer
+15-Sep-2022 23:19:16.575 INFO [main] org.apache.myfaces.ee.MyFacesContainerInitializer.onStartup Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces, *.xhtml]
+15-Sep-2022 23:19:16.599 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+15-Sep-2022 23:19:16.602 INFO [main] org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer.addListener Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+15-Sep-2022 23:19:16.634 INFO [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getStandardFacesConfig Reading standard config META-INF/standard-faces-config.xml
+15-Sep-2022 23:19:16.737 INFO [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib/openwebbeans-el22-2.0.9.jar!/META-INF/faces-config.xml
+15-Sep-2022 23:19:16.737 INFO [main] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib/openwebbeans-jsf-2.0.9.jar!/META-INF/faces-config.xml
+15-Sep-2022 23:19:16.813 INFO [main] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-api' was found in version '2.3.4' from path 'file:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib/myfaces-api-2.3.4.jar'
+15-Sep-2022 23:19:16.813 INFO [main] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-impl' was found in version '2.3.4' from path 'file:/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/lib/myfaces-impl-2.3.4.jar'
+15-Sep-2022 23:19:16.818 INFO [main] org.apache.myfaces.util.ExternalSpecifications.isCDIAvailable MyFaces CDI support enabled
+15-Sep-2022 23:19:16.819 INFO [main] org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory.getInjectionProvider Using InjectionProvider org.apache.myfaces.spi.impl.CDIAnnotationDelegateInjectionProvider
+15-Sep-2022 23:19:16.848 INFO [main] org.apache.myfaces.util.ExternalSpecifications.isBeanValidationAvailable MyFaces Bean Validation support enabled
+15-Sep-2022 23:19:16.869 INFO [main] org.apache.myfaces.application.ApplicationImpl.getProjectStage Couldn't discover the current project stage, using Production
+15-Sep-2022 23:19:16.870 INFO [main] org.apache.myfaces.config.FacesConfigurator.handleSerialFactory Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+15-Sep-2022 23:19:16.873 INFO [main] org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory.getLifecycleProvider Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+15-Sep-2022 23:19:16.887 INFO [main] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces ServletContext initialized.
+15-Sep-2022 23:19:16.890 INFO [main] org.apache.myfaces.view.facelets.ViewPoolProcessor.initialize org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+15-Sep-2022 23:19:16.896 INFO [main] org.apache.myfaces.webapp.StartupServletContextListener.contextInitialized MyFaces Core has started, it took [291] ms.
+15-Sep-2022 23:19:16.992 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using readers:
+15-Sep-2022 23:19:16.992 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@4c635edc
+15-Sep-2022 23:19:16.992 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@149aa7b2
+15-Sep-2022 23:19:16.992 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@3ca3648
+15-Sep-2022 23:19:16.992 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@2a99ca99
+15-Sep-2022 23:19:16.992 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@39f0c343
+15-Sep-2022 23:19:16.992 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@781654f8
+15-Sep-2022 23:19:16.992 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@79add732
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@4245bf68
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@45bbc52f
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@6a8a551e
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@3cc9632d
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using writers:
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.johnzon.jaxrs.WadlDocumentMessageBodyWriter@53982523
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.nio.NioMessageBodyWriter@489110c2
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.StringTextProvider@45bbc52f
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementTypedProvider@39f0c343
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.PrimitiveTextProvider@4c635edc
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.FormEncodingProvider@149aa7b2
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.MultipartProvider@3ca3648
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.SourceProvider@2a99ca99
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.JAXBElementProvider@781654f8
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonbProvider@79add732
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.johnzon.TomEEJsonpProvider@4245bf68
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.BinaryDataProvider@6a8a551e
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.provider.DataSourceProvider@3cc9632d
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication Using exception mappers:
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.impl.WebApplicationExceptionMapper@634e1b39
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.openejb.server.cxf.rs.EJBExceptionMapper@23121d14
+15-Sep-2022 23:19:16.993 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.deployApplication      org.apache.cxf.jaxrs.validation.ValidationExceptionMapper@67d8faec
+15-Sep-2022 23:19:16.995 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints REST Application: http://localhost:8080/moviefun/rest              -> org.superbiz.moviefun.rest.ApplicationConfig@10b8b900
+15-Sep-2022 23:19:16.996 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/moviefun/rest/load         -> Pojo org.superbiz.moviefun.rest.LoadRest  
+15-Sep-2022 23:19:16.996 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints              POST http://localhost:8080/moviefun/rest/load         ->      void load()
+15-Sep-2022 23:19:16.996 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints      Service URI: http://localhost:8080/moviefun/rest/movies       -> Pojo org.superbiz.moviefun.rest.MoviesRest
+15-Sep-2022 23:19:16.996 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints            DELETE http://localhost:8080/moviefun/rest/movies/{id}  ->      void deleteMovie(long)                                 
+15-Sep-2022 23:19:16.996 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/moviefun/rest/movies       ->      List<Movie> getMovies(Integer, Integer, String, String)
+15-Sep-2022 23:19:16.996 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/moviefun/rest/movies/count ->      int count(String, String)                              
+15-Sep-2022 23:19:16.996 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               GET http://localhost:8080/moviefun/rest/movies/{id}  ->      Movie find(Long)                                       
+15-Sep-2022 23:19:16.996 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints              POST http://localhost:8080/moviefun/rest/movies       ->      Movie addMovie(Movie)                                  
+15-Sep-2022 23:19:16.996 INFO [main] org.apache.openejb.server.cxf.rs.CxfRsHttpListener.logEndpoints               PUT http://localhost:8080/moviefun/rest/movies/{id}  ->      Movie editMovie(Movie)                                 
+15-Sep-2022 23:19:17.007 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/Users/fkrueger/projects/sbm-projects/tomee/examples/moviefun-rest/target/apache-tomee/webapps/moviefun.war] has finished in [1,407] ms
+15-Sep-2022 23:19:17.011 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+15-Sep-2022 23:19:17.011 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+15-Sep-2022 23:19:17.011 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+15-Sep-2022 23:19:17.011 INFO [main] org.apache.catalina.core.StandardContext.setClassLoaderProperty Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+15-Sep-2022 23:19:17.014 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+15-Sep-2022 23:19:17.018 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["ajp-nio-8009"]
+15-Sep-2022 23:19:17.019 INFO [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in [1,457] milliseconds
